@@ -42,6 +42,8 @@ When you click the extension icon, a popup shows a summary of what it found:
 
 ## Installation
 
+> **Quick download:** [📦 Download tab-cleaner.zip](https://github.com/<your-username>/tab-cleaner/archive/refs/heads/main.zip) — then skip to the [From a zip file](#from-a-zip-file) instructions below.
+
 ### From source (developer mode)
 
 1. **Clone the repo**

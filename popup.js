@@ -3,13 +3,15 @@
 const ZOOM_URL_PATTERNS = [
   '*://*.zoom.us/*',  '*://zoom.us/*',
   '*://*.zoom.com/*', '*://zoom.com/*',
-  '*://*.zoomgov.com/*', '*://zoomgov.com/*'
+  '*://*.zoomgov.com/*', '*://zoomgov.com/*',
+  '*://federation.intuit.com/*'
 ];
 
 const ZOOM_REGEX = [
   /^https?:\/\/([^/]*\.)?zoom\.us(\/|$)/i,
   /^https?:\/\/([^/]*\.)?zoom\.com(\/|$)/i,
-  /^https?:\/\/([^/]*\.)?zoomgov\.com(\/|$)/i
+  /^https?:\/\/([^/]*\.)?zoomgov\.com(\/|$)/i,
+  /^https?:\/\/federation\.intuit\.com(\/|$)/i
 ];
 
 function isZoomUrl(url) {
